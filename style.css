@@ -62,6 +62,11 @@ img {
   opacity: 0.6;
 }
 
+.big-photo {
+  max-height: 350px;   /* yahan size control karo */
+  width: auto;
+}
+
 p {
   font-family: 'Zeyada';
   font-size: 50px;
