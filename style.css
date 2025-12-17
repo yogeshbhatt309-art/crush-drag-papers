@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,20 +17,31 @@ body {
 }
 
 .paper {
+  position: absolute;
   background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg");
   background-size: 500px;
-  padding: 20px 100px;
-  position: absolute;
+  padding: 20px 80px;
   box-shadow: 1px 15px 20px rgba(0,0,0,0.4);
-  transform: rotateZ(-5deg);
-  touch-action: none; /* 🔥 mobile fix */
+  transform: rotate(-5deg);
+  touch-action: none;   /* 🔥 MOBILE FIX */
+  user-select: none;
+}
+
+.paper.image {
+  padding: 10px;
+}
+
+.paper.image p {
+  font-size: 28px;
 }
 
 .paper.heart {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   padding: 0;
+  background: none;
+  box-shadow: none;
 }
 
 .paper.heart::after {
@@ -37,31 +55,20 @@ body {
   opacity: 0.6;
 }
 
-.paper.image {
-  padding: 10px;
-}
-
-.paper.image p {
-  font-size: 30px;
-}
-
 img {
   max-height: 200px;
   width: 100%;
-  user-select: none;
   pointer-events: none;
 }
 
-/* 🔥 ONLY ONE BIG IMAGE */
+/* ONLY ONE BIG IMAGE */
 .big-photo {
-  max-height: 350px;
-  width: auto;
+  max-height: 340px;
 }
 
 p {
   font-family: 'Zeyada', cursive;
-  font-size: 50px;
+  font-size: 46px;
   color: rgb(0,0,100);
   opacity: 0.8;
-  user-select: none;
 }
