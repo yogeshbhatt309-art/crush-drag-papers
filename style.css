@@ -76,7 +76,7 @@ img {
 
 /* ONLY ONE BIG IMAGE */
 .big-photo {
-  max-height: 350px;
+  max-height: 200px;
   width: auto;
 }
 
