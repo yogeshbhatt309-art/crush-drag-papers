@@ -92,11 +92,11 @@ p {
 @media (max-width: 600px) {
 
   body {
-    zoom: 0.85; /* pura page thoda chota */
+    zoom: 0.55; /* pura page thoda chota */
   }
 
   .container {
-    transform: scale(0.85);
+    transform: scale(0.55);
     transform-origin: top center;
   }
 
