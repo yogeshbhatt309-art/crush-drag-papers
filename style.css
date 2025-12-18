@@ -88,3 +88,16 @@ p {
   color: rgb(0,0,100);
   opacity: 0.75;
 }
+/* Mobile Responsive Fix */
+@media (max-width: 600px) {
+
+  body {
+    zoom: 0.85; /* pura page thoda chota */
+  }
+
+  .container {
+    transform: scale(0.85);
+    transform-origin: top center;
+  }
+
+}
