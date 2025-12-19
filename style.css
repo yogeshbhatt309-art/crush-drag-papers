@@ -93,11 +93,15 @@ p {
 
   body {
     zoom: 0.55; /* pura page thoda chota */
-  }
 
-  .container {
-    transform: scale(0.55);
-    transform-origin: top center;
+    
+/* 📱 Mobile View */
+@media (max-width: 768px) {
+
+  body {
+    transform: scale(0.85);
+    transform-origin: center center;
   }
 
 }
+
