@@ -89,7 +89,7 @@ p {
   opacity: 0.75;
 }
 /* Mobile Responsive Fix */
-@media (max-width: 600px) {
+@media (max-width:200px) {
 
   body {
     zoom: 0.55; /* pura page thoda chota */
