@@ -97,7 +97,7 @@ p {
 
   .container {
     transform: scale(0.55);
-    transform-origin: center;
+    transform-origin: top center;
   }
 
 }
