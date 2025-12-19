@@ -89,7 +89,7 @@ p {
   opacity: 0.75;
 }
 /* 📱 Mobile Responsive Fix */
-@media (max-width: 768px) {
+@media (max-width: 820x) {
 
   body {
     transform: scale(0.75);   /* pura layout chhota */
