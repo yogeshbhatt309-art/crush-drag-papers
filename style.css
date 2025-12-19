@@ -96,7 +96,7 @@ p {
 
     
 /* 📱 Mobile View */
-@media (max-width: 768px) {
+@media (max-width:200px) {
 
   body {
     transform: scale(0.85);
