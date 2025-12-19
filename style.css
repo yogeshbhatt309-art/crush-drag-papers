@@ -89,10 +89,10 @@ p {
   opacity: 0.75;
 }
 /* 📱 Mobile Responsive Fix */
-@media (max-width: 820x) {
+@media (max-width: 768x) {
 
   body {
-    transform: scale(0.75);   /* pura layout chhota */
+    transform: scale(0.85);   /* pura layout chhota */
     transform-origin: center center;
   }
 
